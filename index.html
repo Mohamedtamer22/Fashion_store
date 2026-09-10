@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Fashion Store</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- header -->
+    <header>
+        <div class="container">
+            <div class="header-content">
+                <div class="logo">Fashion Store</div>
+                <nav>
+                    <ul>
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#collection">Collections</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </nav>
+                <div class="icons">
+                    <div><i class="fas fa-search"></i></div>
+                    <div><i class="far fa-heart"></i></div>
+                    <div class="cart-icon">
+                        <i class="fas fa-shopping-bag"></i>
+                        <span class="cart-count">0</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- hero section -->
+    <section class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <h1>Fashion Store</h1>
+                <p> Express your unique style with our exclusive collection.</p>
+                <a href="#shopNow" class="btn">Shop Now</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Categories Section -->
+    <section class="categories"id="shopNow">
+        <div class="container">
+            <div class="section-title">
+                <h2>Shop by Category</h2>
+                <p>Find your perfect style in our unique collections</p>
+            </div>
+            <div class="products-grid">
+                <div class="product-card">
+                    <img src="img/woman category.jpg" alt="Women's Fashion">
+                    <div class="category-info">
+                    <h3 pro>Women</h3>
+                </div>
+                </div>
+                <div class="product-card">
+                    <img src="img/men category.jpg" alt="Men's Fashion">
+                    <div class="category-info">
+                    <h3>Men</h3>
+                    </div>
+                </div>
+                <div class="product-card">
+                    <img src="img/kids category.jpg" alt="Kids Fashion">
+                     <div class="category-info">
+                    <h3>Kids</h3>
+                     </div>
+                </div>
+                <div class="product-card">
+                    <img src="img/accessories category.jpg" alt="Accessories">
+                    <div class="category-info">
+                    <h3>Accessories</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Featured Products -->
+    <section class="featured-products" id="collection">
+        <div class="container">
+            <div class="section-title">
+                <h2>Featured Products</h2>
+                <p>Check out our best selling items</p>
+            </div>
+            <div class="products-grid">    
+                <div class="product-card">
+                    <img src="img/crochet.jpg" alt="Elegant crochet sweater">
+                    <div class="product-info">
+                        <h3>Elegant crochet sweater</h3>
+                        <p class="price">$89.99</p>
+                        <button class="add-to-cart" data-id="1" data-name="Elegant crochet sweater" data-price="89.99">Add to Cart</button>
+                    </div>
+                </div>
+                <div class="product-card">
+                    <img src="img/black boot.jpg" alt="black boot">
+                    <div class="product-info">
+                        <h3>Black Boot</h3>
+                        <p class="price">$65.50</p>
+                        <button class="add-to-cart" data-id="2" data-name="black boot" data-price="65.50">Add to Cart</button>
+                    </div>
+                </div>
+                  <div class="product-card">
+                    <img src="img/jeans.jpg" alt="Classic Denim Jacket">
+                    <div class="product-info">
+                        <h3>Classic Jeans Jacket</h3>
+                        <p class="price">$65.50</p>
+                        <button class="add-to-cart" data-id="3" data-name="Classic Denim Jacket" data-price="65.50">Add to Cart</button>
+                    </div>
+                </div>
+                <div class="product-card">
+                    <img src="img/hoody.jpg" alt="hoody">
+                    <div class="product-info">
+                        <h3>Elegant Hoody</h3>
+                        <p class="price">$65.50</p>
+                        <button class="add-to-cart" data-id="4" data-name="hoody" data-price="65.50">Add to Cart</button>
+                    </div>
+                </div>
+                <div class="product-card">
+                    <img src="img/crochet2.jpg" alt="crochet sweater">
+                    <div class="product-info">
+                        <h3>crochet sweater</h3>
+                        <p class="price">$65.50</p>
+                        <button class="add-to-cart" data-id="5" data-name="crochet sweater" data-price="65.50">Add to Cart</button>
+                    </div>
+                </div>
+                <div class="product-card">
+                    <img src="img/white blouse.jpg" alt="White Blouse">
+                    <div class="product-info">
+                        <h3>White Blouse</h3>
+                        <p class="price">$65.50</p>
+                        <button class="add-to-cart" data-id="6" data-name="White Blouse" data-price="65.50">Add to Cart</button>
+                    </div>
+                </div>
+
+                <div class="product-card">
+                    <img src="img/bag.jpg" alt="Leather Handbag">
+                    <div class="product-info">
+                        <h3>Leather Handbag</h3>
+                        <p class="price">$120.00</p>
+                        <button class="add-to-cart" data-id="7" data-name="Leather Handbag" data-price="120.00">Add to Cart</button>
+                    </div>
+                </div>
+                <div class="product-card">
+                    <img src="img/boot.jpg" alt="Brown Boot">
+                    <div class="product-info">
+                        <h3>Brown Boot</h3>
+                        <p class="price">$75.25</p>
+                        <button class="add-to-cart" data-id="8" data-name="Brown Boot" data-price="75.25">Add to Cart</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+<!-- About Section -->
+<section class="about" id="about">
+    <div class="container">
+        <div class="about-content">
+            <div class="about-text">
+                <h2>About Fashion Store</h2>
+                <p>Welcome to Fashion Store, your premier destination for fashion and style. Since our founding in 2010, we've been committed to bringing you the latest trends and timeless classics.</p>
+                
+                <div class="about-features">
+                    <div class="feature">
+                        <i class="fas fa-shipping-fast"></i>
+                        <h3>Fast Shipping</h3>
+                        <p>Free shipping on orders over $50</p>
+                    </div>
+                    <div class="feature">
+                        <i class="fas fa-undo-alt"></i>
+                        <h3>Easy Returns</h3>
+                        <p>30-day return policy</p>
+                    </div>
+                    <div class="feature">
+                        <i class="fas fa-award"></i>
+                        <h3>Quality Guarantee</h3>
+                        <p>Premium quality products</p>
+                    </div>
+                       <div class="feature">
+                        <i class="fas fa-hands-helping"></i>
+                        <h3>Friendly Staff</h3>
+                        <p>Our team is always ready to help</p>
+                    </div>
+                </div>
+                
+            </div>
+            <div class="about-image">
+                <img src="img/about_us.avif" alt="About StyleHub">
+            </div>
+        </div>
+    </div>
+</section>
+    <!-- Newsletter -->
+    <section class="newsletter">
+        <div class="container">
+            <h2>Subscribe to Our Newsletter</h2>
+            <p>Get the latest updates on new products and upcoming sales</p>
+            <form class="newsletter-form">
+                <input type="email" placeholder="Your email address" required>
+                <button type="submit">Subscribe</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <section id="contact">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-column">
+                    <h3>Shop</h3>
+                    <ul>
+                        <li><a href="#">Women</a></li>
+                        <li><a href="#">Men</a></li>
+                        <li><a href="#">Kids</a></li>
+                        <li><a href="#">Accessories</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h3>Help</h3>
+                    <ul>
+                        <li><a href="#">Customer Service</a></li>
+                        <li><a href="#">Shipping & Returns</a></li>
+                        <li><a href="#">Size Guide</a></li>
+                        <li><a href="#">Contact Us</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h3>Contact Us</h3>
+                    <ul>
+                        <li><a href="#"><i class="fa-brands fa-whatsapp"></i> 0123456789</a></li>
+                        <li><a href="#"><i class="fa-solid fa-phone-flip"></i> 0224971511</a></li>
+                    </ul>
+                    <div class="social-icons">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-pinterest-p"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="copyright">
+                <p>&copy; 2025 <span>Fashion Store</span>. All rights reserved.</p>
+            </div>
+        </div>
+    </section>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
